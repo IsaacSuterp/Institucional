@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+  <title>Contato | Sua Empresa</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+  <script defer src="js/script.js"></script>
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <div class="logo">Sua Empresa</div>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="services.html">Serviços</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="cases.html">Cases</a></li>
+        <li><a href="plans.html">Planos</a></li>
+        <li><a href="contact.html" class="active">Contato</a></li>
+      </ul>
+      <div class="menu-toggle" id="mobile-menu">
+        <span></span><span></span><span></span>
+      </div>
+    </nav>
+  </header>
+
+  <section class="section-reveal">
+    <h2>Contato</h2>
+    <div style="display:flex;flex-wrap:wrap;gap:2rem;justify-content:space-between;">
+      <form style="flex:1;min-width:280px;max-width:400px;background:#fff;padding:2rem 1.5rem;border-radius:var(--radius);box-shadow:var(--shadow);">
+        <label for="nome">Nome</label>
+        <input type="text" id="nome" name="nome" required style="width:100%;margin-bottom:1rem;padding:.8em;border-radius:.6em;border:1px solid #ddd;">
+        <label for="email">E-mail</label>
+        <input type="email" id="email" name="email" required style="width:100%;margin-bottom:1rem;padding:.8em;border-radius:.6em;border:1px solid #ddd;">
+        <label for="msg">Mensagem</label>
+        <textarea id="msg" name="msg" required style="width:100%;margin-bottom:1.5rem;padding:.8em;border-radius:.6em;border:1px solid #ddd;"></textarea>
+        <button type="submit" class="btn-cta" style="width:100%;">Enviar</button>
+      </form>
+      <div style="flex:1;min-width:280px;">
+        <h3 style="margin-top:0;">Outros contatos</h3>
+        <p>WhatsApp: <a href="#">(00) 90000-0000</a><br>
+        E-mail: <a href="#">contato@suaempresa.com</a><br>
+        Horário: Seg a Sex, 9h às 18h</p>
+        <div style="margin-top:2rem;border-radius:1em;overflow:hidden;">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3679.1234236!2d-47.06323918503535!3d-23.550520284693393!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjPCsDMzJzA3LjkiUyA0N8KwMDMnNTMuOSJX!5e0!3m2!1spt-BR!2sbr!4v1620652344342!5m2!1spt-BR!2sbr" width="100%" height="200" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+      </div>
+    </div>
+    <a href="https://wa.me/5500000000000" target="_blank" style="position:fixed;right:24px;bottom:24px;z-index:10000;">
+      <img src="img/whatsapp.png" alt="Fale no WhatsApp" width="56" height="56" style="border-radius:50%;box-shadow:0 2px 10px rgba(0,191,174,0.21);">
+    </a>
+  </section>
+  
+  <footer>
+    <div class="footer-content">
+      <div>
+        <span>&copy; 2025 Sua Empresa</span>
+      </div>
+      <div>
+        <a href="#">Instagram</a> · <a href="#">WhatsApp</a> · <a href="#">LinkedIn</a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
